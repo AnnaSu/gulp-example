@@ -6,9 +6,9 @@
 
 本次筆記內容如下:
 
-* [Intro](#Intro)
-* [Install Gulp](#Install Gulp)
-* [Gulp plugins](#Gulp plugins)
+* [Intro](#intro)
+* [Install Gulp](#install-gulp)
+* [Gulp plugins](#gulp-plugins)
   - gulp-ruby-sass
   - gulp-minify-css
   - gulp-rename
@@ -23,9 +23,9 @@
   - gulp-livereload
   - gulp-connect
   - gulp-compass
-* [Gulp Tasks](#Gulp Tasks)
-* [Gulp other commands](#Gulp other commands)
-* [Gulp Reference](#Gulp Reference)
+* [Gulp Tasks](#gulp-tasks)
+* [Gulp other commands](#gulp-other-commands)
+* [Gulp Reference](#gulp-reference)
 
 
 ***
