@@ -6,9 +6,9 @@
 
 本次筆記內容如下:
 
-* [前言](#前言)
-* [Gulp安裝](#Gulp安裝)
-* [Gulp常用插件](#Gulp常用插件)
+* [Intro](#Intro)
+* [Install Gulp](#Install Gulp)
+* [Gulp plugins](#Gulp plugins)
   - gulp-ruby-sass
   - gulp-minify-css
   - gulp-rename
@@ -23,14 +23,14 @@
   - gulp-livereload
   - gulp-connect
   - gulp-compass
-* [Gulp任務說明](#Gulp任務說明)
-* [GulpGulp其他指令](#GulpGulp其他指令)
-* [Gulp參考文件](#Gulp參考文件)
+* [Gulp Tasks](#Gulp Tasks)
+* [Gulp other commands](#Gulp other commands)
+* [Gulp Reference](#Gulp Reference)
 
 
 ***
 
-## 前言
+## Intro
 
 >The streaming build system
 >[參考Gulp github文件](https://github.com/gulpjs/gulp/)
@@ -67,7 +67,7 @@
 
 ***
 
-## Gulp安裝
+## Install Gulp
 
 ###1.安裝Node.js
 
@@ -164,7 +164,7 @@ http://www.benben.cc/blog/?cat=10
 
 
 ***
-## Gulp常用插件
+## Gulp plugins
 
 gulp 本身並不複雜，比較需要學習的是那些插件(任務)本身設定與使用方法。
 
@@ -193,7 +193,7 @@ npm install gulp-compass --save-dev #編譯compass
 
 ***
 
-## Gulp任務說明
+## Gulp Tasks
 
 首先介紹基本編寫gulp任務的方法
 [Gulp Task and Gulp Pipe](http://wcc723.github.io/gulp/2014/09/24/gulp-task/)
@@ -327,7 +327,7 @@ return gulp.src('js/*.js')
 ***
 ***
 
-##其他指令
+## Gulp other commands
 
 查詢node.js版本
 ```
@@ -347,7 +347,8 @@ npm init
 gulp -T
 ````
 ***
-##參考文件
+## Gulp Reference
+
 [gulp 官方網站](http://gulpjs.com/)
 
 [getting-started.md 官方文件](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
